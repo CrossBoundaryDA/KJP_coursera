@@ -1,0 +1,27 @@
+# This file contains user-specific settings for this project and does NOT get checked
+# into version control.
+
+# onedrive_root is the full, absolute file path to the main OneDrive folder on your 
+#    computer, typically called "OneDrive (CrossBoundary LLC)". Windows users should note
+#    that backslashes ("\") must be written twice, like "C:\\Program Files\\foo".
+onedrive_root: "C:\\Users\\Charl\\CrossBoundary\\"
+
+# append_to_path is a single string (or list of strings) pointing to absolute folders - We're not going to use this on a shared folder. 
+#    on your computer, typically to other development repositories whose functionality
+#    you'd like to use here. Currently, the odyssey-utils repo is a handy one here:
+append_to_path: ["c:\\Users\\Charl\\Documents\\GitHub\\odyssey-utils", "c:\\Users\\Charl\\Documents\\GitHub\\CBDA_utils", "c:\\Users\\Charl\\Documents\\Github\\plotly-utils", "c:\\Users\\Charl\\Documents\\Github\\CB_lab_Tools"]
+
+# data_folder is the full, absolute file path to the folder where you keep your data files
+data_folder: "C://Users//Charl//CrossBoundary//CBDA - Documents//06. Confidential//9. Lab Analysis Code//Tariff Reduction Sierra Leone//Input Data"
+
+# project_folder is the full, absolute file path to the folder where you keep your project files
+project_folder: "C://Users//Charl//CrossBoundary//CBDA - Documents//06. Confidential//9. Lab Analysis Code//Tariff Reduction Sierra Leone"
+
+# output_folder is the full, absolute file path to the folder where you keep your output files
+output_folder: "C://Users//Charl//OneDrive - CrossBoundary//Documents - CB Innovation Lab//Innovation Lab - Extended//6 Publications//3 Innovation Insights//1 Tariff Reduction//SL Report (2023 Dec)//Chart Data"
+
+# HTML_output_root is the full, absolute file path to the folder where you keep your HTML output files
+HTML_output_root: "C://Users//Charl//CrossBoundary//CBDA - Documents//06. Confidential//9. Lab Analysis Code//Tariff Reduction Sierra Leone//HTML Outputs"
+
+# mapbox_token is the API token for Mapbox, which is used for creating maps in the output
+mapbox_token: "xx-Please go to Mapbox, create an account and setup your own API key"
